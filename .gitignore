@@ -1,9 +1,8 @@
-#/node_modules
+/node_modules
 /public/hot
-#/storage/*.key
-#/vendor
-#/tests
-
+/storage/*.key
+/vendor
+/tests
 .env
 .env.backup
 .phpunit.result.cache
