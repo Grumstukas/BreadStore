@@ -3,9 +3,6 @@
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 ![Gluten Status](https://img.shields.io/badge/Gluten-Free-green.svg)
 
-[![HitCount](http://hits.dwyl.com/Grumstukas/BreadStore.svg)](http://hits.dwyl.com/Grumstukas/BreadStore)
-
-
 # Bread Store
 
 ### PHP project
