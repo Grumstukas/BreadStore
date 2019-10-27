@@ -11,10 +11,6 @@ This project is for educational porpuses only.
 Pull request are welcome, but priority for my real-life students! T
 hank you for your cooperation!
 
-
-Site published at https://github.com/Grumstukas/Bread-Store/index.html
-
-
 Design: [Nou-Bready template](https://nou-bready.myshopify.com/?contact%5Bbody%5D=&contact%5Bemail%5D=&contact%5Bname%5D=&contact%5Bphone-number%5D=&form_type=contact)
 
 
