@@ -13,5 +13,5 @@ Thank you for your cooperation!
 Design: [Nou-Bready template](https://nou-bready.myshopify.com/?contact%5Bbody%5D=&contact%5Bemail%5D=&contact%5Bname%5D=&contact%5Bphone-number%5D=&form_type=contact)
 
 
-### Authors
-[Toma](https://github.com/Grumstukas)
+#### Authors [Toma](https://github.com/Grumstukas)
+#### Teacher [Rimantas](https://github.com/belauzas) [Arvydas](https://github.com/A-Kija)
