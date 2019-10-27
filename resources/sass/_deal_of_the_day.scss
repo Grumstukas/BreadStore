@@ -1,0 +1,264 @@
+.deal_of_the_day {
+    padding: 90px 0;
+    background-image: url(../images/bread/home-product.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+    .deal_of_the_day_body {
+        display: inline-block;
+        margin-left: calc((100% - 1100px) / 2);
+        margin-right: calc((100% - 1100px) / 2);
+        @media (max-width: 1100px) {
+            margin-left: calc((100% - 900px) / 2);
+            margin-right: calc((100% - 900px) / 2);
+        }
+        @media (max-width: 1000px) {
+            margin-left: calc((100% - 700px) / 2);
+            margin-right: calc((100% - 700px) / 2);
+        }
+        @media (max-width: 800px) {
+            margin-left: calc((100% - 600px) / 2);
+            margin-right: calc((100% - 600px) / 2);
+        }
+        @media (max-width: 650px) {
+            margin-left: calc((100% - 400px) / 2);
+            margin-right: calc((100% - 400px) / 2);
+        }
+        @media (max-width: 385px) {
+            margin-left: calc((100% - 320px) / 2);
+            margin-right: calc((100% - 320px) / 2);
+        }
+        @media (max-width: 320px) {
+            margin-left: calc((100% - 300px) / 2);
+            margin-right: calc((100% - 300px) / 2);
+        }
+
+        .title {
+            display: inline-block;
+            width: 100%;
+        }
+
+        .title_line1 {
+            display: inline-block;
+            width: 100%;
+            font-family: "Kaushan Script", cursive;
+            font-size: 48px;
+            line-height: 60px;
+        }
+
+        .title_line2 {
+            display: inline-block;
+            width: 100%;
+            font-size: 20px;
+            line-height: 50px;
+            text-transform: uppercase;
+            font-family: Lora, sans-serif;
+        }
+
+        .title_line3 {
+            max-width: 75px;
+            margin: 5px;
+        }
+
+        //****************************************************************************************
+        .goods {
+            display: inline-block;
+            width: 100%;
+            padding-top: 50px;
+
+            .good {
+                display: inline-block;
+                position: relative;
+                float: left;
+                width: 33%;
+                height: 180px;
+                margin-bottom: 30px;
+
+
+                img {
+                    display: inline-block;
+                    float: left;
+                    width: 50%;
+                }
+
+                .description {
+                    display: inline-block;
+                    position: relative;
+                    float: left;
+                    width: 45%;
+                    margin-left: 5%;
+
+                    .text {
+                        display: inline-block;
+                        float: left;
+                        margin: 0 0 10px;
+                        text-align: left;
+                        font-family: Lora, sans-serif;
+                    }
+
+                    .name {
+                        width: 100%;
+                        font-size: 22px;
+
+                    }
+
+                    .categories {
+                        width: 100%;
+                        font-size: 14px;
+                        text-transform: uppercase;
+                    }
+
+                    .starring {
+                        width: 100%;
+                    }
+
+                    .old_price {
+                        width: 50%;
+                        text-decoration: line-through;
+
+                    }
+
+                    .new_price {
+                        width: 50%;
+                    }
+
+                    .discount {
+                        position: absolute;
+                        top: 0px;
+                        left: -195px;
+                        background-position: center;
+                        background-size: contain;
+                        height: 60px;
+                        width: 60px;
+                        font-family: "Kaushan Script", cursive;
+                        font-size: 25px;
+                        line-height: 60px;
+                        text-align: center;
+                        @media (max-width: 1000px) {
+                            left: -193px;
+                        }
+                        @media (max-width: 800px) {
+                            left: -165px;
+                        }
+                        @media (max-width: 700px) {
+                            left: -465px;
+                            top: -10px;
+                            height: 50px;
+                            width: 50px;
+                            font-size: 20px;
+                            line-height: 50px;
+                        }
+                        @media (max-width: 650px) {
+                            left: -220px;
+                            top: 0px;
+                            height: 60px;
+                            width: 60px;
+                            font-size: 24px;
+                            line-height: 60px;
+                        }
+                        @media (max-width: 385px) {
+                            left: -176px;
+                            top: 0px;
+                            height: 60px;
+                            width: 60px;
+                            font-size: 24px;
+                            line-height: 60px;
+                        }
+                    }
+
+                    .new {
+                        position: absolute;
+                        top: -20px;
+                        left: -65px;
+                        background-position: center;
+                        background-size: contain;
+                        height: 60px;
+                        width: 60px;
+                        font-family: "Kaushan Script", cursive;
+                        font-size: 24px;
+                        line-height: 60px;
+                        text-align: center;
+                        @media (max-width: 1000px) {
+                            left: -78px;
+                        }
+                        @media (max-width: 800px) {
+                            top: -28px;
+                            left: -75px;
+                        }
+                        @media (max-width: 700px) {
+                            left: -65px;
+                            top: -10px;
+                            height: 50px;
+                            width: 50px;
+                            font-size: 20px;
+                            line-height: 50px;
+                        }
+                        @media (max-width: 650px) {
+                            left: -80px;
+                            top: 0px;
+                            height: 60px;
+                            width: 60px;
+                            font-size: 24px;
+                            line-height: 60px;
+                        }
+                        @media (max-width: 385px) {
+                            left: -80px;
+                            top: 0px;
+                            height: 60px;
+                            width: 60px;
+                            font-size: 24px;
+                            line-height: 60px;
+                        }
+                    }
+                }
+                .amount_to_buy{
+                    display: inline-block;
+                    position: absolute;
+                    bottom: 0px;
+                    left: 0px;
+                    float: left;
+                    width: 100%;
+                    height: 30px;
+
+                    label{
+                        display: inline-block;
+                        float: left;
+                        width: 20%;
+                        height: 100%;
+                    }
+                    input{
+                        display: inline-block;
+                        float: left;
+                        width: 30%;
+                        height: 100%;
+                    }
+                    button{
+                        display: inline-block;
+                        float: left;
+                        margin-left: 5%;
+                        width: 40%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+
+        .button {
+            width: 20%;
+            margin: 40px 40% 0px;
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+        }
+
+        .button:hover {
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}

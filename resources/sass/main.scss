@@ -1,0 +1,47 @@
+$main_color :#CD9C33;
+$black_color :black;
+$text_grey:#767676;
+$light : #E6D7D5;
+$light2 : #FEEDCF;
+$darker_light: #9E6F6D;
+$dark: #1E3148;
+$main_font: 'Satisfy';
+
+html {
+    scroll-behavior: smooth;
+}
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Lora, sans-serif;
+}
+.kontainer{
+    width: 100%;
+    display: inline-block;
+    float: left;
+}
+
+@import 'buttons'; //all
+@import 'header'; //all
+@import 'hamburger'; //all
+
+@import 'hero';
+@import 'about';
+@import 'qoute';
+
+@import 'deal_of_the_day'; //index
+@import 'testimonials';
+@import 'blog';
+@import 'delivery';
+
+@import 'contacts'; //all
+@import 'warehouse';
+@import 'shopping_basket';
+@import 'payment';
+
+
+

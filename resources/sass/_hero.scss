@@ -1,0 +1,130 @@
+.hero{
+    padding: 130px 0 30px;
+    @media ( max-width: 1000px ){
+        padding: 100px 0;
+    }
+    @media ( max-width: 800px ){
+        padding: 100px 0 50px 0;
+    }
+
+    .hero_body{
+        position: relative;
+        margin-left: calc((100% - 1100px)/ 2);
+        margin-right: calc((100% - 1100px)/ 2);
+
+        @media ( max-width: 1150px ){
+            margin-left: calc((100% - 900px)/ 2);
+            margin-right: calc((100% - 900px)/ 2);
+        }
+        @media ( max-width: 1000px ){
+            margin-left: calc((100% - 700px)/ 2);
+            margin-right: calc((100% - 700px)/ 2);
+        }
+        @media ( max-width: 800px ){
+            margin-left: calc((100% - 600px)/ 2);
+            margin-right: calc((100% - 600px)/ 2);
+        }
+        @media ( max-width: 650px ){
+            margin-left: calc((100% - 500px)/ 2);
+            margin-right: calc((100% - 500px)/ 2);
+        }
+        @media ( max-width: 550px ){
+            margin-left: calc((100% - 400px)/ 2);
+            margin-right: calc((100% - 400px)/ 2);
+        }
+        // @media ( max-width: 385px ){
+        //     margin-left: calc((100% - 320px)/ 2);
+        //     margin-right: calc((100% - 320px)/ 2);
+        // }
+        // @media ( max-width: 320px ){
+        //     margin-left: calc((100% - 300px)/ 2);
+        //     margin-right: calc((100% - 300px)/ 2);
+        // }
+
+        .hero_img{
+            position: relative;
+            height: 66vh;
+            background-image: url(../images/bread/hero1.png);
+            background-position: bottom;
+            background-size: contain;
+            @media ( max-width: 1150px ){height: 74vh;}
+            @media ( max-width: 1000px ){height: 48vh;}
+            @media ( max-width: 800px ){height: 41vh;}
+            @media ( max-width: 650px ){height: 32vh;}
+            @media ( max-width: 550px ){height: 28vh;}
+
+            .fa{
+                font-size: 50px;
+                line-height: 50px;
+                top: 200px;
+                cursor: pointer;
+                @media ( max-width: 1000px ){top: 130px;}
+                @media ( max-width: 550px ){top: 100px;}
+            }
+
+            .fa-chevron-left{
+                position: absolute;
+                left :0px;
+                @media ( max-width: 1000px ){left :-37px;}
+                @media ( max-width: 700px ){left :0px;}
+            }
+
+            .fa-chevron-right{
+                position: absolute;
+                right :0px;
+                @media ( max-width: 1000px ){right :-37px;}
+                @media ( max-width: 700px ){right :0px;}
+            }
+
+        }
+        .button{
+            margin: 0px 330px;
+            @media ( max-width: 1000px ){
+                margin: 0px 250px;
+            }
+            @media ( max-width: 800px ){
+                margin: 20px 200px;
+            }
+            @media ( max-width: 650px ){
+                margin: 20px 100px;
+            }
+        }
+    }
+
+    .discount{
+        position: absolute;
+        top: 162px;
+        left: 208px;
+        background-image: url(../images/bread/badge-brown.png);
+        background-position: center;
+        background-size: contain;
+        height: 120px;
+        width: 120px;
+        font-family: "Kaushan Script", cursive;
+        font-size: 35px;
+        line-height: 120px;
+        text-align: center;
+        @media ( max-width: 1000px ){
+            top: 200px;
+            left: 130px;
+        }
+        @media ( max-width: 800px ){
+            top: 190px;
+            // left: 130px;
+        }
+        @media ( max-width: 650px ){
+            top: 190px;
+            left: 130px;
+            height: 80px;
+            width: 80px;
+            font-size: 30px;
+            line-height: 80px;
+        }
+        @media ( max-width: 550px ){
+            top: 220px;
+            left: 90px;
+        }
+    }
+
+
+}

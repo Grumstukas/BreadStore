@@ -1,0 +1,168 @@
+.payment {
+    padding: 150px 0 30px;
+
+    form {
+        width: 100%;
+        padding: 0 10%;
+        text-align: center;
+
+        .column {
+            display: inline-block;
+            float: left;
+            width: 30%;
+            margin-left: 2%;
+
+            .title {
+                background: linear-gradient(to bottom, #ffc477 5%, #fb9e25 100%);
+                font-weight: bold;
+                font-size: 24px;
+                padding: 6px 24px;
+                color: white;
+                border-radius: 5px;
+            }
+        }
+
+        .column:last-child {
+            margin-left: 0;
+        }
+
+        .identification {
+
+            .box {
+                display: inline-block;
+                float: left;
+                width: 100%;
+                padding: 10px 3% 0;
+
+                label {
+                    font-size: 18px;
+                }
+            }
+        }
+
+        .delivery_method {
+            .box {
+                display: inline-block;
+                float: left;
+                width: 100%;
+                min-height: 70px;
+                padding: 10px 3% 0;
+
+                input {
+                    display: inline-block;
+                    float: left;
+                    width: 9%;
+                    margin: 15px 0;
+                }
+
+                label {
+                    display: inline-block;
+                    float: left;
+                    width: 90%;
+                    font-size: 18px;
+                    line-height: 18px;
+
+                    .text {
+                        display: inline-block;
+                        float: left;
+                        width: 80%;
+
+                        div {
+
+                        }
+                    }
+
+                    .price {
+                        display: inline-block;
+                        float: left;
+                        width: 20%;
+                        margin: auto;
+                    }
+                }
+            }
+        }
+
+        .payment_method {
+            .box {
+                display: inline-block;
+                float: left;
+                width: 100%;
+                min-height: 56px;
+                padding: 10px 3% 0;
+
+                input {
+                    display: inline-block;
+                    float: left;
+                    width: 9%;
+                    margin: 15px 0;
+                }
+
+                label {
+                    display: inline-block;
+                    float: left;
+                    width: 90%;
+                    font-size: 18px;
+                    line-height: 18px;
+                }
+
+            }
+        }
+        .myButton
+        {
+            display: inline-block;
+            width: 50%;
+            height: 40px;
+            font-size: 24px;
+            line-height: 24px;
+
+            .totalPrice
+            {
+                display: inline-block;
+            }
+
+        }
+
+    }
+}
+
+.message{
+    display: inline-block;
+    float: left;
+    width: 100%;
+    padding-top: 150px;
+
+    .text_place{
+        display: inline-block;
+        float: left;
+        width: 40%;
+        margin-left: 6%;
+        padding-top: 180px;
+
+        .text{
+            display: inline-block;
+            float: right;
+            width: 100%;
+            font-size: 45px;
+            text-align: right;
+            font-family: "Kaushan Script", cursive;
+        }
+        a{
+            display: inline-block;
+            float: right;
+            width: 100%;
+            text-align: right;
+            font-size: 25px;
+        }
+        .myButton
+        {
+            display: inline-block;
+            float: right;
+
+        }
+    }
+    img{
+        display: inline-block;
+        float: left;
+        width: 35%;
+    }
+}

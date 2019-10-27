@@ -1,0 +1,16 @@
+.button {
+  font-family: Lora, sans-serif;
+  line-height: 20px;
+  font-size: 18px;
+  padding: 10px;
+  border: 2px solid $main_color;
+  border-radius: 50px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 800;
+}
+.button:hover {
+  background-color: $main_color;
+  color: white;
+  box-shadow: -3px 3px 8px 0px grey;
+}

@@ -1,0 +1,141 @@
+.testimonials{
+    padding: 90px 0 90px 0;
+    background-image: url(../images/bread/testimonials.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+
+    .testimonials_body{
+        display: inline-block;
+        position: relative;
+        margin-left: calc((100% - 1100px)/ 2);
+        margin-right: calc((100% - 1100px)/ 2);
+
+        @media ( max-width: 1200px ){
+            margin-left: calc((100% - 900px)/ 2);
+            margin-right: calc((100% - 900px)/ 2);
+        }
+        @media ( max-width: 1000px ){
+            margin-left: calc((100% - 700px)/ 2);
+            margin-right: calc((100% - 700px)/ 2);
+        }
+        @media ( max-width: 800px ){
+            margin-left: calc((100% - 600px)/ 2);
+            margin-right: calc((100% - 600px)/ 2);
+        }
+        @media ( max-width: 650px ){
+            margin-left: calc((100% - 400px)/ 2);
+            margin-right: calc((100% - 400px)/ 2);
+        }
+        // @media ( max-width: 385px ){
+        //     margin-left: calc((100% - 320px)/ 2);
+        //     margin-right: calc((100% - 320px)/ 2);
+        // }
+        // @media ( max-width: 320px ){
+        //     margin-left: calc((100% - 300px)/ 2);
+        //     margin-right: calc((100% - 300px)/ 2);
+        // }
+        .testimonials_box{
+            width: 100%;
+            background-color: rgba($color: rgb(255, 255, 255), $alpha: 0.7);
+
+            .testimonials_line{
+                display: inline-block;
+                float: left;
+                width: 100%;
+                padding: 0 150px;
+                font-family: Lora,sans-serif;
+                @media ( max-width: 1200px ){
+                    padding: 0 100px;
+                }
+                @media ( max-width: 1000px ){
+                    padding: 0 70px;
+                }
+                @media ( max-width: 800px ){
+                    padding: 0 50px;
+                }
+                
+            }
+            .foto{
+                position: absolute;
+                width: 100px;
+                height: 100px;
+                background-image: url(../images/bread/person1.jpg);
+                background-size: contain;
+                top: -50px;
+                left: calc((100% - 100px) / 2);
+                border-radius: 50%;
+                border: 2px solid white;
+            }
+            .starring{
+                margin: 80px 0 0 0;
+                color: $main_color;
+                font-size: 20px;
+            }
+    
+            .text{
+                margin: 20px 0 0 0;
+                font-size: 24px;
+                line-height: 1.8em;
+                text-transform: capitalize;
+                @media ( max-width: 1000px ){
+                    font-size: 22px;
+                    line-height: 1.6em;
+                }
+                @media ( max-width: 650px ){
+                    font-size: 18px;
+                    line-height: 1.6em;
+                }
+    
+            }
+            .text::after{
+                content: "";
+                display: block;
+                position: absolute;
+                left: calc(50% - 150px);
+                background-color: $main_color;
+                height: 2px;
+                width: 300px;
+                top: 275px;
+                @media ( max-width: 1000px ){
+                    top: 285px;
+                }
+                @media ( max-width: 650px ){
+                    top: 315px;
+                    left: calc(50% - 100px);
+                    width: 200px;
+                }
+            }
+            .person{
+                margin: 45px 0 0 0;
+                font-size: 20px;
+                font-style: italic;
+                text-transform: capitalize;
+            }
+        }
+        .navigat{
+            display: inline-block;
+            margin-left: calc((100% - 1100px)/ 2);
+            margin-right: calc((100% - 1100px)/ 2);
+            margin: 30px 0 40px 0;
+    
+            .nav{
+                display: inline-block;
+                float: left;
+                background-color: $main_color;
+                height: 15px;
+                margin: 0 10px;
+                border-radius: 8px;
+                cursor: pointer;
+            }
+            .nav1{
+                width: 75px;
+            }
+            .nav2{
+                width: 15px;
+            }
+            .nav3{
+                width: 15px;
+            }
+        }
+    } 
+}

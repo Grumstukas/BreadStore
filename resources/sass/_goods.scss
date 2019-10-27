@@ -1,0 +1,109 @@
+.content{
+    display: inline-block;
+    float: left;
+
+    .pastry{
+        display: inline-block;
+        float: right;
+        width: calc(100% - 250px);
+        padding: 20px;
+        margin-right: 50px;
+
+        @media ( max-width: 1100px ){
+        }
+        @media ( max-width: 1000px ){
+        }
+        @media ( max-width: 800px ){
+        }
+        @media ( max-width: 650px ){
+        }
+        @media ( max-width: 385px ){
+        }
+        @media ( max-width: 320px ){
+        }
+
+        .good{
+            display: inline-block;
+            position: relative;
+            float: left;
+            width: 20%;
+            padding: 20px;
+            @media ( max-width: 1200px ){
+                width: 25%;
+            }
+            @media ( max-width: 1100px ){
+                width: 33.3%;
+            }
+            @media ( max-width: 850px ){
+                width: 50%;
+            }
+
+            img{
+                display: inline-block;
+                float: left;
+                width: 100%;
+            }
+
+            .description{
+                display: inline-block;
+                float: left;
+                width: 100%;
+                
+            }
+
+            .text{
+                display: inline-block;
+                float: left;
+                width: 100%;
+                font-family: Lora,sans-serif;
+            }
+            .price{
+                display: inline-block;
+                float: left;
+                width: 100%;
+            }
+            .name{
+                width: 100%;
+                font-size: 22px;
+            }
+            .categories{
+                width: 100%;
+                font-size: 14px;
+                text-transform: uppercase;
+            }
+            .old_price{
+                width: 50%;
+                text-decoration: line-through;
+            }
+            .new_price{
+                width: 50%;
+            }
+            .discount{
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                background-position: center;
+                background-size: contain;
+                height: 60px;
+                width: 60px;
+                font-family: "Kaushan Script", cursive;
+                font-size: 25px;
+                line-height: 60px;
+                text-align: center;
+            }
+            .new{
+                position: absolute;
+                top: -20px;
+                right: 0px;
+                background-position: center;
+                background-size: contain;
+                height: 60px;
+                width: 60px;
+                font-family: "Kaushan Script", cursive;
+                font-size: 24px;
+                line-height: 60px;
+                text-align: center;
+            }
+        }
+    }
+}

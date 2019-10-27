@@ -1,0 +1,122 @@
+#hamburger{
+    display: inline-block;
+    position: absolute;
+    padding: 9px 0;
+    // left: 60px;
+    // top: 70px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-box-shadow: -1px 1px 4px 0px grey;
+    box-shadow: -1px 1px 4px 0px grey;
+    background-color: white;
+    z-index: 2;
+    .bar{
+        width: 35px;
+        height: 4px;
+        background-color: black;
+        margin: 5px 7px;
+        transition: 0.4s;
+        opacity: 1;
+        transform: none;
+        border-radius:2px;
+    }
+    .bar1.change {
+    transform: rotate(-45deg) translate(-6px, 7px);
+    }
+    .bar2.change  {
+    opacity: 0;
+    }
+    .bar3.change  {
+    transform: rotate(45deg) translate(-6px, -6px);
+    }
+    #hamburger:hover .bar2{
+        background-color: red;
+        width: 29px;
+        margin: 5px 10px;
+    }
+}
+
+.curtainMeniu {
+    height: 100vh;/*180%*/
+    width: 0;/*120%*/
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    // background-color: greenyellow;
+    opacity: .8;
+    overflow-x: hidden;
+    transition: 0.5s;
+    // border: 5px solid red;
+    // border-radius: 50%;
+  }
+  .curtainMeniu > .curtainMeniuContent {
+        display: inline-block;
+        width: 25%;
+        height: 40vh;
+        text-align: center;
+    }
+      .curtainMeniu > .curtainMeniuContent > a {
+        display: inline-block;
+        position: relative;
+        top: 50%;
+        width: 100%;
+        right: 64px;
+        text-align: center;
+        margin: 12px 0;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 30px;
+        line-height: 30px;
+        font-weight: 800;
+        color: $darker_light;
+    }
+      .curtainMeniu > .curtainMeniuContent > a:hover, .curtainMeniu > .curtainMeniuContent > a:focus {
+        color: #f1f1f1;
+      }
+  
+  @media ( max-width: 900px ) {
+    .curtainMeniu {
+      right: -150px;
+    }
+  }
+  
+  @media ( max-width: 800px ) {
+    .curtainMeniu {
+      right: -110px;
+    }
+  }
+  
+  @media ( max-width: 700px ) {
+    .curtainMeniu {
+      right: -90px;
+    }
+  }
+  
+  @media ( max-width: 600px ) {
+    .curtainMeniu {
+      right: -70px;
+    }
+  }
+  
+  @media ( max-width: 500px ) {
+    .curtainMeniu {
+      right: -70px;
+    }
+  }
+  
+  @media ( max-width: 400px ) {
+    .curtainMeniu {
+      right: -70px;
+    }
+    .curtainMeniu > .curtainMeniuContent > a {
+      top: 60%;
+      right: 40px;
+      margin: 5px 0;
+      font-size: 40px;
+      line-height: 50px;
+      font-weight: 800;
+    }
+  }

@@ -1,0 +1,181 @@
+//--***--***--***-- header --***--***--***-->
+.header-wide {
+    padding: 10px 0 10px 0;
+    text-transform: uppercase;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 1;
+
+    .meniu {
+        line-height: 128px;
+        font-size: 25px;
+    }
+
+    .meniu_left {
+        display: inline-block;
+        float: left;
+        width: calc((100% - 150px) / 2);
+
+        .meniu_choice {
+            display: inline-block;
+            float: right;
+            padding: 0 50px 0 0;
+        }
+
+    }
+
+    .logo {
+        display: inline-block;
+        float: left;
+        width: 150px;
+
+        a {
+            cursor: pointer;
+
+            img {
+                width: 150px;
+            }
+        }
+    }
+
+    .meniu_right {
+        display: inline-block;
+        float: left;
+        width: calc(((100% - 150px) / 2) - 150px);
+
+        .meniu_choice {
+            display: inline-block;
+            float: left;
+            padding: 0 0 0 35px;
+            cursor: pointer;
+        }
+    }
+
+    .choice {
+        text-align: center;
+        text-decoration: none;
+        color: $dark;
+        cursor: pointer;
+    }
+
+    .choice:hover {
+        color: $main_color;
+        font-weight: 800;
+    }
+
+    .meniu_icons {
+        display: inline-block;
+        float: left;
+        width: 150px;
+
+        a {
+            line-height: 29px;
+            font-size: 25px;
+            padding: 0 0px;
+            margin: 49px 15px;
+            text-decoration: none;
+            color: $dark;
+
+        }
+
+        .fa-shopping-basket {
+            position: relative;
+
+            div {
+                position: absolute;
+                top: 17px;
+                right: -9px;
+                width: 24px;
+                padding: 2px;
+                line-height: 20px;
+                font-size: 15px;
+                border-radius: 50%;
+                background-color: #CD9C33;
+            }
+
+        }
+
+        a:hover {
+            color: $main_color;
+            font-weight: 800;
+        }
+
+        a:hover > div {
+            color: $dark;
+            font-weight: 400;
+        }
+
+    }
+}
+
+
+.header-slim {
+    display: none;
+    padding: 10px;
+    text-transform: uppercase;
+
+    .meniu {
+        display: inline-block;
+        float: left;
+        width: 150px;
+    }
+
+    #hamburger {
+        left: 60px;
+        top: 50px;
+
+    }
+
+    .logo {
+        margin-left: calc((100% - 150px) / 2);
+
+        a {
+            cursor: pointer;
+
+            img {
+                width: 150px;
+            }
+        }
+    }
+
+    .meniu_icons {
+        display: inline-block;
+        float: left;
+        position: absolute;
+        right: 60px;
+        width: 150px;
+
+        a {
+            line-height: 29px;
+            font-size: 25px;
+            padding: 0 0px;
+            margin: 49px 15px;
+            text-decoration: none;
+            color: $dark;
+
+        }
+
+        a:hover {
+            color: $main_color;
+            font-weight: 800;
+        }
+
+        .fa-shopping-basket {
+            position: relative;
+
+            div {
+                position: absolute;
+                top: 17px;
+                right: -9px;
+                width: 24px;
+                padding: 2px;
+                line-height: 20px;
+                font-size: 15px;
+                border-radius: 50%;
+                background-color: #CD9C33;
+            }
+        }
+    }
+}
